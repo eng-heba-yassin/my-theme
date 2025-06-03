@@ -1,0 +1,216 @@
+/*
+Theme Name: My Custom Theme
+Theme URI: https://example.com/
+Author: Your Name
+Author URI: https://example.com/
+Description: A custom WordPress theme based on HTML
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: my-custom-theme
+*/
+body{
+    padding-bottom: 10%;
+}
+.header-top{
+    background-image: url("images/img-2.jpg");
+    width: 813px !important;
+        height: 100px !important;
+        background-size: cover;
+        margin: 20px auto;
+}
+svg{
+    color: red;
+}
+.search-btn{
+position: relative;
+left: -17%;
+border: none !important;
+background-color: #fff !important;
+}
+.nav-link {
+    color: #fff !important;
+}
+.bg-dark {
+    justify-content: ;
+    margin: auto;
+    width: 85%;
+    padding: 5px 23px;
+    margin-bottom: 2%;
+    background-color: #000 !important;
+
+    }
+    .cards {
+        background-image: url("images/img-1.jpg");
+        background-size: cover;
+        width: 450px !important;
+        height: 307px !important;
+        padding: 45% 6% 10% 6%;        }
+    .card-link{
+        background: #DF001E !important;
+        color: #fff;
+    }
+    a.btn.card-link {
+        color: #fff;
+    }
+    .cards-4 {
+        background-image: url("images/img-1.jpg");
+        background-size: cover;
+        height: 300px;
+        padding: 45% 6% 10% 6%; 
+    }
+.small  .cards{
+    padding-top: 12%;
+}
+.card-text{
+    color: #fff !important;
+line-height: 1.3;
+}
+.card-2{
+    width: 321px !important;
+    height: 147px !important;
+}
+.card-3{
+    width: 275px !important;
+    height: 155px !important;
+    padding-top: 32%;
+}
+.large{
+    width: 40% !important;
+}
+.small{
+    width: 29% !important;
+    margin-bottom: 29px !important;
+}
+.small-2{
+    width: 31% !important;
+    margin-bottom: 31px !important;
+}
+.small .row{
+    margin-bottom: 12px !important;
+}
+hr {
+    margin: 1rem 0;
+    color: inherit;
+    border: 0;
+    border-top: 3px solid !important;
+    opacity: 1 !important;
+    }
+   
+      
+      #slider-container {
+      
+        position: relative;
+        overflow: hidden;
+        padding: 20px 0px;
+      }
+      
+      #slider-container .btn {
+        position: absolute;
+        top: calc(50% - 30px);
+        height: 40px;
+        width: 40px;
+        background-color: red;
+        border-radius: 50%;
+      
+      }
+      
+      #slider-container .btn:hover {
+        transform: scale(1.2);
+      }
+      
+      #slider-container .btn.inactive {
+        border-color: rgb(153, 121, 126)
+      }
+      
+      #slider-container .btn:first-of-type {
+      
+        left: 10px
+      }
+      
+      #slider-container .btn:last-of-type {
+        right: 10px;
+      }
+      
+      #slider-container #slider {
+        display: flex;
+        width: 1000%;
+        height: 100%; 
+        transition: all .5s;
+      }
+      
+      #slider-container #slider .slide {
+        height: 90%;
+        margin: auto 10px;
+        background-color: #a847a4;
+        box-shadow: 2px 2px 4px 2px white, -2px -2px 4px 2px white;
+        display: grid;
+        place-items: center;
+      }
+      
+      #slider-container #slider .slide span {
+        color: white;
+        font-size: 150px;
+      }
+      .list-group-numbered{
+        border-left: 2px solid #000;
+        line-height:2;
+        border-radius: 0 !important;
+      }
+      .list-group-numbered>.list-group-item::before {
+        content: counters(section, "") " ";
+        counter-increment: section;
+        background-color: #D30006;
+        padding: 3px;
+        color: #fff !important;
+        margin-right: 4px;
+        }
+     .list-group-item {
+            border-right: none !important;
+        }
+      @media only screen and (min-width: 1100px) {
+      
+        #slider-container #slider .slide {
+          width: calc(2.5% - 20px);
+        }
+      
+      }
+      
+      @media only screen and (max-width: 1100px) {
+      
+        #slider-container #slider .slide {
+          width: calc(3.3333333% - 20px);
+        }
+      
+      }
+      
+      @media only screen and (max-width: 900px) {
+      
+        #slider-container #slider .slide {
+          width: calc(5% - 20px);
+        }
+      
+      }
+      
+      @media only screen and (max-width: 660px) {
+        .bg-dark {
+            background-color: #fff !important;
+        }
+       
+        .col-sm-4 {
+            width: 100% !important;
+            margin-bottom: 10%;
+        }
+        span.navbar-toggler-icon {
+            background-color: #fff !important;
+            width: 2.5em;
+            height: 2.5em;
+        }
+      }
+      @media only screen and (max-width: 550px) {
+      
+        #slider-container #slider .slide {
+          width: calc(10% - 20px);
+        }
+      
+      }
