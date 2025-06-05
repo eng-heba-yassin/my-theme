@@ -206,6 +206,10 @@ hr {
             width: 2.5em;
             height: 2.5em;
         }
+          .header-top {
+    overflow: hidden;
+    max-width: 100% !important;
+}
       }
       @media only screen and (max-width: 550px) {
       
