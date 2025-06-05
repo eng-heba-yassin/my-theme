@@ -213,6 +213,9 @@ hr {
           .cards {
     max-width: 100% !important;
 }
+          nav.navbar.navbar-expand-lg.bg-dark{
+              width: 100% !important;
+          }
           .col-sm-4.small-2 img {
     max-width: 100% !important;
     height: auto !important;
