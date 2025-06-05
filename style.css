@@ -206,8 +206,11 @@ hr {
             width: 2.5em;
             height: 2.5em;
         }
-          .header-top {
+  .header-top {
     overflow: hidden;
+    max-width: 100% !important;
+}
+          .cards {
     max-width: 100% !important;
 }
       }
